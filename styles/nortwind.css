@@ -1,0 +1,39 @@
+#id-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#id-form-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#id-form-products *{
+    width: 270px;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table th{
+    background-color: grey;
+    padding: 8px;
+}
+
+table th, table td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.c-navbar{    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
